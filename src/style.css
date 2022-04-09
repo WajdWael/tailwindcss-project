@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap');
+
+/* ================== Tailwindcss general classes ================== */
+.btn{
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 font-semibold; 
+}
+
+.btn-purple{
+    @apply bg-bookmark-purple text-white;
+}
+.btn-white{
+    @apply bg-bookmark-white;
+}
+
+.img{
+    @apply w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full;
+}
+
+
+/* ================== Navbar section css styles ==================*/
+.open{
+    z-index: 30;
+    transition: .5s all ease;
+}
+
+@media (max-width: 630px){
+    .open{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        position: absolute;
+        border-top: 1px solid #dbdbdb;
+        background: #fbfbfb;
+        width: 100%;
+        top: 86px;
+        left: 100%;
+        font-size: .95rem;
+        height: 89vh;
+    }
+}
+
+/*JavaScript*/
+.active{
+    left: 0;
+}
+
+
+/* ================== FAQ section css styles ================== */
+.qusetion-btn {
+    color: #5267DF;
+}
+.qusetion-btn:hover {
+    transform: rotate(90deg);
+}
+.qusetion-text {
+    display: none;
+}
+/*JavaScript*/
+.minus-icon {
+    display: none;
+}
+.show-text .qusetion-text {
+    display: block;
+}
+.show-text .minus-icon {
+    display: inline;
+}
+.show-text .plus-icon {
+    display: none;
+}
