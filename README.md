@@ -5,7 +5,7 @@
 
 ---
 
-See Other Project:
+# See Other Project With TailwindCSS:
 
 - [Manage Website](https://github.com/WajdWael/tailwindcss-project2)
 - [Portfolio](https://github.com/WajdWael/tailwindcss-project3/tree/master)
@@ -22,7 +22,7 @@ You should give it a try!!
 .
 .
 
-## Tools:
+# Tools:
 
 - HTML5
 - CSS3
